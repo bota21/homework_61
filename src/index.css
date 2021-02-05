@@ -1,0 +1,25 @@
+@font-face{
+	font-family: 'faculty';
+	src: local('faculty'), url(./fonts/MagicSchoolOne-ovYz.ttf)
+}
+@font-face{
+	font-family: 'harry';
+	src: local('harry'), url(./fonts/ParryHotter-LOZ.ttf)
+}
+@font-face{
+	font-family: 'animales';
+	src: local('animales'), url(./fonts/AnimalesFantastic-lGly.ttf)
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

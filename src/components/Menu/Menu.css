@@ -1,0 +1,24 @@
+.menu{
+    background: #fffbfb;
+    grid-area: m;
+    height: auto;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    font-family: 'animales';
+  }
+  .menu_link{
+      text-decoration: none;
+      color: rgb(56, 34, 34);
+      text-transform: uppercase;
+      font-size: 20px;
+      margin: 10px 0;
+      outline: none;
+  }
+  .menu_link:hover{
+      font-weight: 800;
+  }
+  .menu_active{
+      font-weight: 900;
+  }

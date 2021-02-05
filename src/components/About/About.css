@@ -1,0 +1,34 @@
+.about{
+    padding: 10px;
+  }
+  .about_wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  .about_wrapper img{
+    width: 250px;
+    height: 370px;
+  }
+  .about_title{
+    font-family: 'harry';
+    font-size: 50px;
+    margin: 0 0 0 20px;
+  }
+  .about_title_text{
+    padding: 0 30px 0 10px;
+    text-indent: 20px;
+    text-align: justify;
+  }
+  .about_wrapper:last-child{
+    display: flex;
+    flex-direction: column;
+  }
+.about_wrapper_content{
+  display: flex;
+}
+.about_wrapper_content_title{
+  width: 150px;
+}
+.about_wrapper_content_text{
+  width: 300px;
+}

@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.main{
+  display: grid;
+  grid-template-columns: 100px 230px 1fr 100px;
+  grid-template-rows: 70px 1fr;
+  gap: 20px;
+  grid-template-areas: 
+  "h h h h" 
+  "n m c l";
+  background: #b8b5b5;
+  padding-bottom: 50px;
+}
+.header{
+  background: #444141;
+  grid-area: h;
+  padding: 5px 20px;
+}
+.logo img{
+  width: 200px;
+  outline: none;
+}
+.content{
+  height: auto;
+  background: #fffbfb;
+  grid-area: c;
+  border-radius: 3px;
+}
+
